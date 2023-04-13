@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <style>
+      .attribution {
+        margin-top: 3rem;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <title>Frontend Mentor | News homepage</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-primary">
+    <header class="primary-header">
+      <div class="container flex">
+        <a href="#"><img src="assets/images/logo.svg" alt="W" /></a>
+        <button class="mobile-nav-toggle">
+          <img
+            class="icon-hamburger"
+            src="assets/images/icon-menu.svg"
+            alt="Hamburger"
+          />
+          <img
+            class="icon-close"
+            src="assets/images/icon-menu-close.svg"
+            alt="Close Navigation"
+          />
+        </button>
+        <nav class="primary-navigation">
+          <ul role="list" class="nav-list flex">
+            <li><a class="fc-dark-grayish-blue" href="#">Home</a></li>
+            <li><a class="fc-dark-grayish-blue" href="#">New</a></li>
+            <li><a class="fc-dark-grayish-blue" href="#">Popular</a></li>
+            <li><a class="fc-dark-grayish-blue" href="#">Trending</a></li>
+            <li><a class="fc-dark-grayish-blue" href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-grid">
+      <article class="article-1">
+        <picture>
+          <source
+            media="(max-width:800px)"
+            srcset="assets/images/image-web-3-mobile.jpg"
+          />
+          <img src="assets/images/image-web-3-desktop.jpg" alt="" />
+        </picture>
+        <div class="article-1-container">
+          <div class="fs-primary-heading fw-black">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="fs-200 fc-dark-grayish-blue">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button class="button"><span>READ MORE</span></button>
+          </div>
+        </div>
+      </article>
+      <article class="article-2">
+        <h2 class="fs-secondary-heading bg-soft-orange fw-bold">New</h2>
+        <div>
+          <div class="new-article">
+            <h3 class="fs-tertiary-heading fw-bold">
+              Hydrogen VS Electric Cars
+            </h3>
+            <p class="fc-grayish-blue fs-200 fw-200">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="new-article">
+            <h3 class="fs-tertiary-heading fw-bold">
+              The Downsides of AI Artistry
+            </h3>
+            <p class="fc-grayish-blue fs-200 fw-200">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="new-article">
+            <h3 class="fs-tertiary-heading fw-bold">
+              Is VC Funding Drying Up?
+            </h3>
+            <p class="fc-grayish-blue fs-200 fw-200">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="article-3">
+        <div class="flex">
+          <picture>
+            <img src="assets/images/image-retro-pcs.jpg" alt="" />
+          </picture>
+          <div class="flex-rev">
+            <h3 class="fs-700 fc-grayish-blue fw-bold">01</h3>
+            <h4 class="fs-tertiary-heading fw-black fs-320">
+              Reviving Retro PCs
+            </h4>
+            <p class="fs-200 fc-dark-grayish-blue">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="article-3">
+        <div class="flex">
+          <picture>
+            <img src="assets/images/image-top-laptops.jpg" alt="" />
+          </picture>
+          <div class="flex-rev">
+            <h3 class="fs-700 fc-grayish-blue fw-bold">02</h3>
+            <h4 class="fs-tertiary-heading fw-black fs-320">
+              Top 10 Laptops of 2022
+            </h4>
+            <p class="fs-200 fc-dark-grayish-blue">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="article-3">
+        <div class="flex">
+          <picture>
+            <img src="assets/images/image-gaming-growth.jpg" alt="" />
+          </picture>
+          <div class="flex-rev">
+            <h3 class="fs-700 fc-grayish-blue fw-bold">03</h3>
+            <h4 class="fs-tertiary-heading fw-black fs-320">
+              The Growth of Gaming
+            </h4>
+            <p class="fs-200 fc-dark-grayish-blue">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="https://github.com/shnitish">Nitish Sharma</a>.
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</html>
