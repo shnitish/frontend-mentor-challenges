@@ -24,6 +24,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![](./screenshot-2.jpg)
 
 ### Links
 
@@ -47,5 +48,5 @@ Users should be able to:
 
 ## Todo
 
-- Implment overlay menu for mobile screen
-- handle close/open action of menu in mobile screen
+- [x] Implment overlay menu for mobile screen
+- [x] handle close/open action of menu in mobile screen
