@@ -291,10 +291,44 @@ body {
   }
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 /* Mobile Navigation CSS */
 @media (max-width: 50em) {
   .primary-navigation {
     display: none;
+  }
+
+  .primary-navigation[data-visible] {
+    display: block;
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"] {
+    z-index: 100;
+  }
+  
+  .mobile-nav-toggle[aria-expanded="true"] .icon-close {
+    display: block;
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"] .icon-hamburger {
+    display: none;
+  }
+  
+  .nav-list {
+    flex-direction: column;
+    background: white;
+    width: 75vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10rem 2rem 2rem 2rem;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-350);
+    z-index: 100;
   }
 
   .mobile-nav-toggle {
@@ -307,5 +341,13 @@ body {
 
   .mobile-nav-toggle .icon-close {
     display: none;
+  }
+
+  .backdrop.active {
+    background: black;
+    z-index: 99;
+    position: fixed;
+    opacity: 50%;
+    inset: 0;
   }
 }
