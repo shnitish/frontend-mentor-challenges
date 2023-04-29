@@ -1,0 +1,27 @@
+.about {
+  grid-column: span 2;
+  padding: 5rem;
+  gap: 2rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+
+p {
+  color: var(--dark-gray);
+  line-height: 1.5;
+}
+
+/* Media Queries */
+@media (width < 900px) {
+  .about {
+    padding: 3rem 2rem;
+  }
+
+  h2 {
+    font-size: var(--fs-895)!important;
+    letter-spacing: 0.3rem;
+  }
+}
