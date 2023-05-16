@@ -1,0 +1,32 @@
+.filler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  gap: 2rem;
+  padding: 10rem 20rem;
+  text-align: center;
+  color: var(--clr-primary);
+  background-color: var(--clr-secondary);
+  background-image: url("../../assets/Images/image6.png");
+  background-blend-mode: multiply;
+  background-position: center center;
+}
+
+.filler > a {
+  width: 14rem;
+}
+
+.filler > p {
+  font-size: 1.5rem;
+}
+
+.filler h3 {
+  font-size: 2rem;
+}
+
+@media (width < 900px) {
+  .filler {
+    padding: 4rem 2rem;
+  }
+}

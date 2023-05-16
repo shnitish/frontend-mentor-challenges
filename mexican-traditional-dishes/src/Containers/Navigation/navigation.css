@@ -1,0 +1,27 @@
+.primary__header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: var(--clr-secondary);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1rem 18rem;
+  font-weight: 600;
+}
+
+ul > li > a {
+  text-transform: uppercase;
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+
+@media (width < 900px) {
+  .nav__list {
+    padding: 1rem;
+  }
+}

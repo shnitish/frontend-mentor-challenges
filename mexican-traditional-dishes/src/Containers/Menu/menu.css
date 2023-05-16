@@ -1,0 +1,13 @@
+.menu .menu__details {
+  padding: 5rem 22rem;
+}
+
+.menu__dishes img {
+  width: 100%;
+}
+
+@media(width < 900px) {
+  .menu .menu__details {
+    padding: 2rem;
+  }
+}

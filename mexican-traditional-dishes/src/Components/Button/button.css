@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 1rem 4rem;
+  border-radius: 4rem;
+}
+
+.natural {
+  background: var(--clr-primary);
+  color: var(--clr-secondary);
+  font-weight: 600;
+}
+
+.inverted {
+  background: var(--clr-secondary);
+  color: var(--clr-primary);
+}

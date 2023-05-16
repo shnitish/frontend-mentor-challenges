@@ -1,0 +1,23 @@
+.menu__details {
+  text-align: center;
+  color: var(--clr-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.menu__details h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.menu__details p {
+  font-size: 1.5rem;
+}
+
+
+.inverted__heading {
+  color: var(--clr-primary);
+}
+
+.inverted__paragraph {
+  color: var(--clr-primary);
+}
